@@ -1,10 +1,11 @@
 import React from 'react'
+import RealTimeComp from '../components/RealTimeComp'
 
 const RealTime = () => {
   return (
-    <div>
-      <h1>RealTime</h1>
-    </div>
+    <>
+      <RealTimeComp />
+    </>
   )
 }
 

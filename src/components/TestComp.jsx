@@ -7,7 +7,7 @@ const TestComp = () => {
     <>
       <div style={{ position: 'fixed', inset: 0 }}>
 			<Tldraw persistenceKey="example" />
-		</div>
+	  </div>
     </>
   )
 }

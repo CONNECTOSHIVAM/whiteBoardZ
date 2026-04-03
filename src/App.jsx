@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter>
        <Routes>
           <Route path="/" element={<Test/>} />
-          <Route path="/realtime" element={<RealTime/>} />
-          <Route path="/collab" element={<Collab/>} />
+          <Route path="/realtime/:roomId" element={<RealTime/>} />
+          <Route path="/collab/:roomId" element={<Collab/>} />
        </Routes>
     </BrowserRouter>
    

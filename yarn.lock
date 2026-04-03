@@ -1486,6 +1486,31 @@
     "@tldraw/state" "4.5.6"
     "@tldraw/utils" "4.5.6"
 
+"@tldraw/sync-core@4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/sync-core/-/sync-core-4.5.6.tgz#5bee7b3a02c562328e8645688f93a4e9eabe5cbf"
+  integrity sha512-aGAWg7nB1Mz2jbvdnfVZqs/7S2HHOAVfvYAtuFE+5trWIRSnMebnCiI21tXUmzfJAOCr8IEppXUG2sFFGpwuAg==
+  dependencies:
+    "@tldraw/state" "4.5.6"
+    "@tldraw/store" "4.5.6"
+    "@tldraw/tlschema" "4.5.6"
+    "@tldraw/utils" "4.5.6"
+    nanoevents "^7.0.1"
+    ws "^8.18.0"
+
+"@tldraw/sync@^4.5.6":
+  version "4.5.6"
+  resolved "https://registry.yarnpkg.com/@tldraw/sync/-/sync-4.5.6.tgz#6badf0098289568a82a37e77130f32e8cce1e227"
+  integrity sha512-g1ws5/+aLX2K23d4HhHgA9mzZFtUCU5tsp+TaMOhcY9Fd/f7uaqisLkXUEw00mJxt2orEJQYIhUVSMoHgoPkFQ==
+  dependencies:
+    "@tldraw/state" "4.5.6"
+    "@tldraw/state-react" "4.5.6"
+    "@tldraw/sync-core" "4.5.6"
+    "@tldraw/utils" "4.5.6"
+    nanoevents "^7.0.1"
+    tldraw "4.5.6"
+    ws "^8.18.0"
+
 "@tldraw/tlschema@4.5.6":
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/@tldraw/tlschema/-/tlschema-4.5.6.tgz#1a4d0ee26e439b0692c8b21caa7a121663102d54"
@@ -2235,6 +2260,11 @@ ms@^2.1.3:
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
 
+nanoevents@^7.0.1:
+  version "7.0.1"
+  resolved "https://registry.yarnpkg.com/nanoevents/-/nanoevents-7.0.1.tgz#181580b47787688d8cac775b977b1cf24e26e570"
+  integrity sha512-o6lpKiCxLeijK4hgsqfR6CNToPyRU3keKyyI6uwuHRvpRTbZ0wXw51WRgyldVugZqoJfkGFrjrIenYH3bfEO3Q==
+
 nanoid@^3.3.11:
   version "3.3.11"
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.11.tgz#4f4f112cefbe303202f2199838128936266d185b"
@@ -2707,7 +2737,7 @@ tinyglobby@^0.2.15:
     fdir "^6.5.0"
     picomatch "^4.0.3"
 
-tldraw@^4.5.6:
+tldraw@4.5.6, tldraw@^4.5.6:
   version "4.5.6"
   resolved "https://registry.yarnpkg.com/tldraw/-/tldraw-4.5.6.tgz#69cfcec72730714b31eb58a5cc5a51d9859aab17"
   integrity sha512-gg1vPQGZaMMCYPlgAqN40NqzLYoumnTbenh/9DTy5Px00A8NsdD1VWxxcuHi0Nmj++mjCVMMvvhBOr6s5+h0eA==
@@ -2809,6 +2839,11 @@ word-wrap@^1.2.5:
   version "1.2.5"
   resolved "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.5.tgz#d2c45c6dd4fbce621a66f136cbe328afd0410b34"
   integrity sha512-BN22B5eaMMI9UMtjrGd5g5eCYPpCPDUy0FJXbYsaT5zYxjFOckS53SQDE3pWkVoWpHXVb3BrYcEN4Twa55B5cA==
+
+ws@^8.18.0:
+  version "8.20.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.20.0.tgz#4cd9532358eba60bc863aad1623dfb045a4d4af8"
+  integrity sha512-sAt8BhgNbzCtgGbt2OxmpuryO63ZoDk/sqaB/znQm94T4fCEsy/yV+7CdC1kJhOU9lboAEU7R3kquuycDoibVA==
 
 yallist@^3.0.2:
   version "3.1.1"
