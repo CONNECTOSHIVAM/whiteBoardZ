@@ -1,10 +1,11 @@
 import React from 'react'
+import TestComp from '../components/TestComp'
 
 const Test = () => {
   return (
-    <div>
-      <h1>Test</h1>
-    </div>
+    <>
+      <TestComp/>
+    </>
   )
 }
 
